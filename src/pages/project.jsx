@@ -50,6 +50,11 @@ export default function Project() {
                         />
                       </svg>
                       </a>
+                      <a href="powerpoint/power2.pptx" download="wordpress.pptx" className="text-blue-700">
+                  télécharger la présentation 
+
+
+</a>
                     </div>
                   </div>
 
@@ -75,11 +80,18 @@ export default function Project() {
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
                     Boutique en ligne Shopify
                   </h3>
+                  <a href="powerpoint/power1.pptx" download="shopify.pptx" className="text-blue-700">
+                  télécharger la présentation 
+
+
+</a>
+
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-600">
                     Création d'une boutique en ligne avec intégration du moyen
                     de paiement PayPal.
                   </p>
                 </div>
+                
               </div>
               <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700">
                 <div className="p-5">
