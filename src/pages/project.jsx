@@ -115,6 +115,7 @@ export default function Project() {
               <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700">
                 <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
+                    <a href="https://urlr.me/9jxfzT" className="text-blue-700 text-md">Lien github <span></span></a><br />
                     Logiciel de gestion des interventions en Java
                   </h3>
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-600">
