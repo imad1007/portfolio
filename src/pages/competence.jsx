@@ -14,15 +14,15 @@ export default function Competence() {
             class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-blue-700 dark:hover:dark:bg-blue-900"
           >
             <img
-              class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+              class="object-cover w-full rounded-t-lg h-32 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
               src="https://i.pinimg.com/736x/53/19/88/5319885958f89815e5431363f39ff937.jpg"
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               HTML / CSS
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Langages de base pour structurer et styliser les pages web.
               </p>
             </div>
@@ -34,15 +34,15 @@ export default function Competence() {
             class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-blue-700 dark:hover:dark:bg-blue-900"
           >
             <img
-              class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+              class="object-cover w-full rounded-t-lg h-32 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
               src="https://jbstechinfo.com/wp-content/uploads/2023/08/JavaScript-Symbol.png"
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               JavaScript 
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Langage de programmation pour rendre les pages web interactives.
               </p>
             </div>
@@ -59,10 +59,10 @@ export default function Competence() {
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               React.js
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Bibliothèque JavaScript pour créer des interfaces utilisateur dynamiques et performantes.
               </p>
             </div>
@@ -79,10 +79,10 @@ export default function Competence() {
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               jQuery 
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Bibliothèque JavaScript facilitant la manipulation du DOM et les requêtes AJAX.
               </p>
             </div>
@@ -99,10 +99,10 @@ export default function Competence() {
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               PHP  
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Langage de programmation côté serveur pour créer des applications web dynamiques.
               </p>
             </div>
@@ -119,10 +119,10 @@ export default function Competence() {
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               Laravel  
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Framework PHP moderne pour le développement rapide et sécurisé d’applications web.
               </p>
             </div>
@@ -139,10 +139,10 @@ export default function Competence() {
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               Django  
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Framework web Python offrant une approche rapide et sécurisée du développement.
               </p>
             </div>
@@ -160,10 +160,10 @@ export default function Competence() {
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               SQL / MySQL   
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Système de gestion de bases de données relationnelles pour stocker et gérer les données efficacement.
               </p>
             </div>
@@ -180,10 +180,10 @@ export default function Competence() {
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               Linux   
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Gestion des systèmes Linux Shell, gestion des utilisateurs, permissions, création de groupes
               </p>
             </div>
@@ -196,10 +196,10 @@ export default function Competence() {
           >
 
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               Windows Server  
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Installation et configuration des services (DHCP, DNS, ADDS) pour l’administration réseau.
               </p>
             </div>
@@ -212,10 +212,10 @@ export default function Competence() {
           >
 
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               Apache2 sous Linux –  
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Installation et configuration du serveur web pour héberger des sites et applications.
               </p>
             </div>
@@ -228,10 +228,10 @@ export default function Competence() {
           >
 
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               Plan d’adressage et sous-réseaux
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Configuration et optimisation des réseaux pour une meilleure gestion des adresses IP.
               </p>
             </div>
@@ -244,10 +244,10 @@ export default function Competence() {
           >
 
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               Configuration réseau LAN avec Cisco  
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Mise en place et gestion des réseaux locaux à l’aide de matériels Cisco.
               </p>
             </div>
@@ -260,10 +260,10 @@ export default function Competence() {
           >
 
             <div class="flex flex-col justify-between p-4 leading-normal">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
               Cisco Packet Tracer   
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-800">
               Simulation et configuration de serveurs et équipements réseau pour l’apprentissage et la gestion réseau.
               </p>
             </div>

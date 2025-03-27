@@ -106,7 +106,7 @@ export default function Project() {
                     Site de gestion des interventions
                   </h3>
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-600">
-                    <a href="https://urlr.me/4pketz" className="text-blue-700 text-md">visitez le site Web <span></span></a><br />
+                    <a href="https://urlr.me/4pketz" className="text-blue-700 text-md">Lien github <span></span></a><br />
                     Développement d'un site avec PHP et des langages front-end,
                     interactif avec une base de données.
                   </p>
