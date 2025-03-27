@@ -23,42 +23,41 @@ export default function Project() {
                 <div className="p-5">
                   <div className="flex">
                     <div>
-                    <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950 mr-4">
-               
-                    Site web avec Wordpress 
-                   
-
-                  </h3>
+                      <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950 mr-4">
+                        Site web avec Wordpress
+                      </h3>
                     </div>
                     <div>
                       <a href="https://iris-students-irszvt9zjv.live-website.com/">
-                    <svg
-                        class="w-6 h-6 text-gray-800 dark:text-gray-950"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"
-                        />
-                      </svg>
+                        <svg
+                          class="w-6 h-6 text-gray-800 dark:text-gray-950"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"
+                          />
+                        </svg>
                       </a>
-                      <a href="powerpoint/power2.pptx" download="wordpress.pptx" className="text-blue-700">
-                  télécharger la présentation 
-
-
-</a>
                     </div>
                   </div>
 
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-600">
+                  <a
+                        href="powerpoint/power2.pptx"
+                        download="wordpress.pptx"
+                        className="text-blue-700"
+                      >
+                        télécharger la présentation
+                      </a><br />
                     Exploration des cours et exercices de la formation, avec une
                     présentation de notre école.
                   </p>
@@ -69,6 +68,13 @@ export default function Project() {
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
                     Jeu Snake en C
                   </h3>
+                  <a
+                    href="powerpoint/power4.pptx"
+                    download="jeuxsnack.pptx"
+                    className="text-blue-700"
+                  >
+                    télécharger la présentation
+                  </a>
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-600">
                     Modification d'un jeu Snake existant pour développer des
                     compétences d'analyse et de continuation de code.
@@ -80,18 +86,19 @@ export default function Project() {
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
                     Boutique en ligne Shopify
                   </h3>
-                  <a href="powerpoint/power1.pptx" download="shopify.pptx" className="text-blue-700">
-                  télécharger la présentation 
-
-
-</a>
+                  <a
+                    href="powerpoint/power1.pptx"
+                    download="shopify.pptx"
+                    className="text-blue-700"
+                  >
+                    télécharger la présentation
+                  </a>
 
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-600">
                     Création d'une boutique en ligne avec intégration du moyen
                     de paiement PayPal.
                   </p>
                 </div>
-                
               </div>
               <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700">
                 <div className="p-5">
@@ -99,6 +106,7 @@ export default function Project() {
                     Site de gestion des interventions
                   </h3>
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-600">
+                    <a href="https://urlr.me/4pketz" className="text-blue-700 text-md">visitez le site Web <span></span></a><br />
                     Développement d'un site avec PHP et des langages front-end,
                     interactif avec une base de données.
                   </p>
