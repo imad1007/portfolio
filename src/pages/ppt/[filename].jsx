@@ -4,7 +4,8 @@ const PowerPointViewer = () => {
   const router = useRouter();
   const { filename } = router.query;
 
-  const fileUrl = `https://portfolio-six-gules-85.vercel.app/ppt/${filename}.pptx`; // or .pptx
+  // Replace this with your actual production domain (or use relative path if on same domain)
+  const fileUrl = `https://portfolio-six-gules-85.vercel.app/ppt/${filename}.ppt`;
   const viewerUrl = `https://docs.google.com/gview?url=${fileUrl}&embedded=true`;
 
   return (
