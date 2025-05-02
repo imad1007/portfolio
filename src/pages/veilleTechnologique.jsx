@@ -1,73 +1,149 @@
 import React from 'react';
-import Navbar from "@/components/navbar";
+import Navbar from '@/components/navbar';
 
-export default function CyberSecurityAwareness() {
+export default function VeilleTechnologique() {
   return (
-    <div className="bg-cover bg-center bg-[url('https://img.freepik.com/premium-photo/vivid-blurred-colorful-wallpaper-background_759200-9453.jpg?semt=ais_hybrid')]">
+    <div className="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100">
       <Navbar />
 
-      <section className="">
-        <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-          <img className="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="Cybersecurity image" />
-          <img className="w-full hidden dark:block rounded-xl" src="https://artscience.ai/wp-content/uploads/2024/01/Embracing-the-Future.png" alt="Cybersecurity defense" />
-          <div className="mt-4 md:mt-0">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-zinc-950">L'importance de la cybersécurité aujourd'hui</h2>
-            <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-600">
-              La cybersécurité est essentielle pour protéger les données et les infrastructures contre les cyberattaques. Découvrez les meilleures pratiques pour sécuriser vos informations personnelles et professionnelles.
-            </p>
-            <a href="https://www.cisa.gov/" className="inline-flex items-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-blue-900">
-              En savoir plus
-              <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </section>
+      <main className="max-w-4xl mx-auto px-6 py-10 space-y-12">
+        {/* Introduction */}
+        <section>
+          <h1 className="text-4xl font-bold mb-4">Qu'est-ce que la veille technologique ?</h1>
+          <p className="text-lg">
+            La veille technologique, élément de la veille stratégique, consiste à surveiller les évolutions techniques, les innovations dans un secteur d’activité donné. Elle comprend notamment la surveillance, la collecte, le partage et la diffusion d’informations permettant d’anticiper ou de s’informer sur des changements en matière de recherche, développement, brevets, lancement de nouveaux produits, matériaux, processus, concepts, innovation de fabrication, etc. Cela a pour but d’évaluer l’impact sur l’environnement et l’organisation.
+          </p>
+        </section>
 
-      <section className="">
-        <div className="gap-8 items-center py-4 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <div className="mt-4 md:mt-0">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-zinc-950">Les menaces courantes en cybersécurité</h2>
-            <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-600">
-              Des attaques par phishing aux ransomwares, les menaces informatiques évoluent constamment. Apprenez à identifier et prévenir les cyberattaques les plus fréquentes.
-            </p>
-          </div>
-        </div>
-      </section>
+        {/* Subject */}
+        <section>
+          <h2 className="text-3xl font-semibold mb-3">Mon sujet de veille technologique</h2>
+          <p className="text-lg">
+            L'IA dans la cybersécurité est un sujet passionnant et risque d'être au cœur des problématiques de demain. Ce sujet allie mes intérêts pour les nouvelles technologies et la protection des données numériques, offrant ainsi une perspective unique sur les défis et les opportunités de notre ère numérique.
+          </p>
+        </section>
 
-      <section className="">
-        <div className="gap-8 items-center py-4 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <div className="mt-4 md:mt-0">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-zinc-950">Protéger ses données personnelles</h2>
-            <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-600">
-              Vos données sont une cible précieuse pour les hackers. Découvrez les bonnes pratiques pour renforcer la sécurité de vos informations en ligne et éviter le vol d’identité.
-            </p>
+        {/* Methodology */}
+        <section>
+          <h2 className="text-3xl font-semibold mb-3">Comment j'ai procédé ?</h2>
+          <ul className="list-disc list-inside text-lg space-y-2">
+            <li>
+              En utilisant <strong>Feedly</strong>, j'ai pu créer plusieurs flux d'information en recherchant des mots-clés pertinents.
+            </li>
+            <li>
+              Grâce à <strong>Google Alertes</strong>, j'ai reçu quotidiennement un e-mail contenant les articles les plus pertinents sur l'IA et la cybersécurité.
+            </li>
+          </ul>
+          <div className="mt-4 space-y-4">
+            <img
+              src="https://cdn.prod.website-files.com/6448e042598f8755ec802489/65ccb98f658dac5cf5448358_Capture.PNG"
+              alt="Feedly capture"
+              className="rounded shadow-md"
+            />
+            <img
+              src="https://cdn.prod.website-files.com/6448e042598f8755ec802489/65ccbc895b674d5849474550_Capture2.PNG"
+              alt="Google Alertes capture"
+              className="rounded shadow-md"
+            />
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="">
-        <div className="gap-8 items-center py-4 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <div className="mt-4 md:mt-0">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-zinc-950">Les bonnes pratiques en cybersécurité</h2>
-            <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-600">
-              Utiliser des mots de passe robustes, activer l'authentification à deux facteurs et maintenir ses logiciels à jour sont des mesures clés pour renforcer votre sécurité numérique.
-            </p>
-          </div>
-        </div>
-      </section>
+        {/* Visuals */}
+        <section>
+          <h2 className="text-3xl font-semibold mb-3">À quoi ça ressemble ?</h2>
+          <p className="text-lg mb-4">
+            Voici Feedly, on voit apparaître tous les articles parus dans la journée.
+          </p>
+          <img
+            src="https://cdn.prod.website-files.com/6448e042598f8755ec802489/65ccbf797b67706ca9dc43b8_Capture3.PNG"
+            alt="Feedly articles"
+            className="rounded shadow-md mb-4"
+          />
+          <p className="text-lg mb-4">
+            Feedly restitue l'intégralité ou une partie de l’article. Il est possible d'aller directement sur le site en question en cliquant sur le bouton "visit website" en bas de page.
+          </p>
+          <img
+            src="https://cdn.prod.website-files.com/6448e042598f8755ec802489/65ccc16961b0a38a315eff38_Capture4.PNG"
+            alt="Feedly article view"
+            className="rounded shadow-md mb-4"
+          />
+          <p className="text-lg mb-4">
+            Voici Google Alertes, on voit certains des articles les plus intéressants en rapport avec notre sujet. Libre à nous de les consulter en entier ou de survoler les articles car tout n'est pas forcément pertinent.
+          </p>
+          <img
+            src="https://cdn.prod.website-files.com/6448e042598f8755ec802489/65ccbc895b674d5849474550_Capture2.PNG"
+            alt="Google Alertes articles"
+            className="rounded shadow-md"
+          />
+        </section>
 
-      <section className="">
-        <div className="gap-8 items-center py-4 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <div className="mt-4 md:mt-0">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-zinc-950">L'avenir de la cybersécurité</h2>
-            <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-600">
-              L’IA et l’apprentissage automatique transforment la cybersécurité. Découvrez comment ces technologies aident à anticiper les cyberattaques et renforcer la protection des systèmes.
-            </p>
+        {/* Timeline */}
+        <section>
+          <h2 className="text-3xl font-semibold mb-6">À retenir</h2>
+          <div className="space-y-8 border-l-2 border-blue-500 pl-6">
+            <div>
+              <h3 className="text-xl font-bold">Février 2023</h3>
+              <p className="text-md">
+                Un utilisateur a réussi à berner le système de sécurité de sa banque en utilisant une intelligence artificielle vocale, accessible gratuitement.
+                <br />
+                <a
+                  href="https://www.capital.fr/economie-politique/un-homme-a-reussi-a-berner-le-systeme-de-securite-de-sa-banque-en-utilisant-une-ia-vocale-1465092"
+                  className="text-blue-600 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Lire
+                </a>
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold">Juillet 2023</h3>
+              <p className="text-md">
+                WormGPT, un clone de ChatGPT créé par un hacker, capable de créer des malwares, des messages de phishing ou toutes sortes de cyberattaques.
+                <br />
+                <a
+                  href="https://www.lebigdata.fr/wormgpt-ia-hacker"
+                  className="text-blue-600 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Lire
+                </a>
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold">Septembre 2023</h3>
+              <p className="text-md">
+                Darktrace lance sa technologie Cyber AI Analyst après plus de trois ans de recherche. Une innovation révolutionnaire qui automatise les enquêtes sur les cyber-menaces à grande échelle.
+                <br />
+                <a
+                  href="https://fr.darktrace.com/news/darktrace-announces-cyber-ai-analyst"
+                  className="text-blue-600 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Lire
+                </a>
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold">Mai 2024</h3>
+              <p className="text-md">
+                Defendis : l’intelligence artificielle au service de la Cybersécurité.
+                <br />
+                <a
+                  href="https://maroc-diplomatique.net/defendis-lintelligence-artificielle-au-service-de-la-cybersecurite/"
+                  className="text-blue-600 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Lire
+                </a>
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
     </div>
   );
 }

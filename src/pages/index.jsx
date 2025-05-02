@@ -40,15 +40,15 @@ export default function Hero() {
           <div class=" lg:mt-0 lg:col-span-5 mt-4">
             <img
 
-              src="/images/youssef.jpeg"
+              src="/images/heroprofilephoto.jpeg"
               alt="mockup"
-              className="rounded-xl h-96  w-full m-auto"
+              className="rounded-xl h-96 w-80  m-auto"
             />
           </div>
         </div>
         <div className="max-w-screen-xl m-auto hidden lg:flex">
           <div className="lg:grid overflow-scroll md:grid-cols-3 lg:overflow-hidden lg:grid-cols-6 gap-4  w-full p-4 ">
-            <div className="h-20 w-20 overflow-hidden">
+            <div className="h-20 w-20 overflow-hidden"> 
               <img
                 src="images/node-js.png"
                 alt=""
@@ -100,11 +100,7 @@ export default function Hero() {
               Présentation 👨🏻‍💻
             </h1>
             <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-zinc-950">
-              J'ai débuté le développement web en autodidacte vers fin 2017, en
-              réalisant de petits projets. Puis, j'ai commencé à explorer le
-              back-end il y a 2 ans avec l'apprentissage du langage PHP. Le BTS
-              SIO m'a permis de structurer mes apprentissages et à améliorer mon
-              organisation.
+            J'ai débuté le développement web en autodidacte vers fin 2017, en réalisant de petits projets. Puis, j'ai commencé à explorer le back-end il y a 2 ans avec l'apprentissage du langage PHP. Le BTS SIO m'a permis de structurer mes apprentissages et à améliorer mon organisation.
             </p>
           </div>
           <div class=" lg:mt-0 lg:col-span-5 lg:flex h-96 w-96 ">
@@ -134,28 +130,28 @@ export default function Hero() {
               <div>
                 <img
                   class="w-64 h-64 object-cover rounded-lg"
-                  src="https://www.efrei.fr/wp-content/uploads/2024/06/EFREI-CampusBordeaux-042024CorinneHameau-042-scaled.jpg"
+                  src="https://res.cloudinary.com/mediaschool/image/upload/v1/Iris%20images/IRIS-FRANCE-PARIS-ECOLE_m7ef01"
                   alt=""
                 />
               </div>
               <div>
                 <img
                   class="w-64 h-64 object-cover rounded-lg"
-                  src="https://res.cloudinary.com/mediaschool/image/upload/v1/Iris%20images/IRIS-PARIS-BAN-3_qcelhn"
+                  src="https://res.cloudinary.com/mediaschool/image/upload/v1/Iris%20images/VIE-ECOLE-IRIS-PARIS-4_ce0ayx"
                   alt=""
                 />
               </div>
               <div>
                 <img
                   class="w-64 h-64 object-cover rounded-lg"
-                  src="https://cfa-insta.fr/wp-content/uploads/2020/09/xpasserelle-universitaire_btssio.png.pagespeed.ic_.tezZeO5C3Y.jpg"
+                  src="https://res.cloudinary.com/mediaschool/image/upload/v1/Iris%20images/bac-pro-informatique-numerique-ecole-iris-paris_el1wrb"
                   alt=""
                 />
               </div>
               <div>
                 <img
                   class="w-64 h-64 object-cover rounded-lg"
-                  src="images/univ.jpg"
+                  src="https://res.cloudinary.com/mediaschool/image/upload/v1/Iris%20images/IRIS-FRANCE-PARIS-ECOLE-5_boq9vt"
                   alt=""
                 />
               </div>
