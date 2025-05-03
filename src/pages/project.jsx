@@ -74,11 +74,11 @@ export default function Project() {
                     Jeu Snake en C
                   </h3>
                   <a
-                    href="powerpoint/power4.pptx"
-                    download="jeuxsnack.pptx"
+                    href="powerpoint/snack"
+                    
                     className="text-blue-700"
                   >
-                    télécharger la présentation
+                    Voire la présentation
                   </a>
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-600">
                     Modification d'un jeu Snake existant pour développer des
