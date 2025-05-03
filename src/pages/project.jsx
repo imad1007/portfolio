@@ -19,7 +19,10 @@ export default function Project() {
               </p>
             </div>
             <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700">
+            <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700 p-2">
+                <div>
+                <img class="object-cover w-full rounded-t-lg h-96 md:h-56 md:w-92 md:rounded-none md:rounded-s-lg" src="images/wordpressproject.jpeg" alt=""/>
+                </div>
                 <div className="p-5">
                   <div className="flex">
                     <div>
@@ -28,7 +31,7 @@ export default function Project() {
                       </h3>
                     </div>
                     <div>
-                      <a href="https://iris-students-irszvt9zjv.live-website.com/">
+                      <a href="/pdf/presentationwordpress">
                         <svg
                           class="w-6 h-6 text-gray-800 dark:text-gray-950"
                           aria-hidden="true"
@@ -52,18 +55,20 @@ export default function Project() {
 
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-600">
                   <a
-                        href="powerpoint/power2.pptx"
-                        download="wordpress.pptx"
+                        href="/pdf/presentationwordpress"
                         className="text-blue-700"
                       >
-                        télécharger la présentation
+                        Voire la présentation
                       </a><br />
                     Exploration des cours et exercices de la formation, avec une
                     présentation de notre école.
                   </p>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700">
+              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700 p-2">
+                <div>
+                <img class="object-cover w-full rounded-t-lg h-96 md:h-56 md:w-92 md:rounded-none md:rounded-s-lg" src="images/snackGame.jpeg" alt=""/>
+                </div>
                 <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
                     Jeu Snake en C
@@ -81,7 +86,10 @@ export default function Project() {
                   </p>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700">
+              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700 p-2">
+                <div>
+                <img class="object-cover w-full rounded-t-lg h-96 md:h-56 md:w-92 md:rounded-none md:rounded-s-lg" src="images/wordpressproject.jpeg" alt=""/>
+                </div>
                 <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
                     Boutique en ligne Shopify
@@ -100,7 +108,10 @@ export default function Project() {
                   </p>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700">
+              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700 p-2">
+                <div>
+                <img class="object-cover w-full rounded-t-lg h-96 md:h-56 md:w-92 md:rounded-none md:rounded-s-lg" src="images/wordpressproject.jpeg" alt=""/>
+                </div>
                 <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
                     Site de gestion des interventions
@@ -112,7 +123,10 @@ export default function Project() {
                   </p>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700">
+              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700 p-2">
+                <div>
+                <img class="object-cover w-full rounded-t-lg h-96 md:h-56 md:w-92 md:rounded-none md:rounded-s-lg" src="images/wordpressproject.jpeg" alt=""/>
+                </div>
                 <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
                     <a href="https://urlr.me/9jxfzT" className="text-blue-700 text-md">Lien github <span></span></a><br />
@@ -124,6 +138,22 @@ export default function Project() {
                   </p>
                 </div>
               </div>
+
+              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700 p-2">
+                {/* <div>
+                <img class="object-cover w-full rounded-t-lg h-96 md:h-56 md:w-92 md:rounded-none md:rounded-s-lg" src="images/wordpressproject.jpeg" alt=""/>
+                </div> */}
+                <div className="p-5">
+                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
+                    <a href="pdf/youssef" className="text-blue-700 text-md">Voire la présentation <span></span></a><br />
+                    GLPI 
+                  </h3>
+                  <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-600">
+                  Ce projet, intitulé GLPI Gestion Tickets, vise à mettre en place une plateforme centralisée pour la création, le suivi et la résolution des tickets d’incidents et de demandes au sein de l’organisation. Il permet d’optimiser la gestion du support informatique grâce à l’automatisation des processus et à la traçabilité des interventions.
+                  </p>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
