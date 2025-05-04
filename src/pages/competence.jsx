@@ -269,7 +269,71 @@ export default function Competence() {
             </div>
           </a>
         </div>
+        <div>
+  <a
+    href="#"
+    className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-blue-700 dark:hover:dark:bg-blue-900"
+  >
+    <img
+      className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+      src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png"
+      alt="Java logo"
+    />
+    <div className="flex flex-col justify-between p-4 leading-normal">
+      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
+        Java
+      </h5>
+      <p className="mb-3 font-normal text-gray-700 dark:text-gray-800">
+        Langage de programmation orienté objet largement utilisé pour les applications d’entreprise.
+      </p>
+    </div>
+  </a>
+</div>
+
+<div>
+  <a
+    href="#"
+    className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-blue-700 dark:hover:dark:bg-blue-900"
+  >
+    <img
+      className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+      src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png"
+      alt="C# logo"
+    />
+    <div className="flex flex-col justify-between p-4 leading-normal">
+      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
+        C#
+      </h5>
+      <p className="mb-3 font-normal text-gray-700 dark:text-gray-800">
+        Langage développé par Microsoft, idéal pour les applications Windows et les jeux avec Unity.
+      </p>
+    </div>
+  </a>
+</div>
+
+<div>
+  <a
+    href="#"
+    className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-blue-700 dark:hover:dark:bg-blue-900"
+  >
+    <img
+      className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+      src="https://cdn-icons-png.flaticon.com/512/5610/5610944.png"
+      alt="Project management"
+    />
+    <div className="flex flex-col justify-between p-4 leading-normal">
+      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
+        Gestion de projet
+      </h5>
+      <p className="mb-3 font-normal text-gray-700 dark:text-gray-800">
+        Planification, organisation et suivi des projets pour atteindre les objectifs dans les délais.
+      </p>
+    </div>
+  </a>
+</div>
+
       </div>
+      
         </section>
     </div>
   );

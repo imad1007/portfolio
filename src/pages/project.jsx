@@ -142,7 +142,7 @@ export default function Project() {
 
               <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700 p-2">
                 <div>
-                <img class="object-cover w-full rounded-t-lg h-96 md:h-56 md:w-92 md:rounded-none md:rounded-s-lg" src="images/glpi.jpg" alt=""/>
+                <img class="object-cover w-full rounded-t-lg h-96 md:h-56 md:w-96 md:rounded-none md:rounded-s-lg" src="images/glpi.jpg" alt=""/>
                 </div>
                 <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
@@ -150,7 +150,7 @@ export default function Project() {
                     GLPI 
                   </h3>
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-600">
-                  Ce projet, intitulé GLPI Gestion Tickets, vise à mettre en place une plateforme centralisée pour la création, le suivi et la résolution des tickets d’incidents et de demandes au sein de l’organisation. Il permet d’optimiser la gestion du support informatique grâce à l’automatisation des processus et à la traçabilité des interventions.
+                  Ce projet, intitulé GLPI Gestion Tickets, vise à mettre en place une plateforme centralisée pour la création,.
                   </p>
                 </div>
               </div>
