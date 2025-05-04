@@ -297,19 +297,20 @@ export default function Competence() {
   >
     <img
       className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-      src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png"
-      alt="C# logo"
+      src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+      alt="C++ logo"
     />
     <div className="flex flex-col justify-between p-4 leading-normal">
       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
-        C#
+        C++
       </h5>
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-800">
-        Langage développé par Microsoft, idéal pour les applications Windows et les jeux avec Unity.
+        Langage puissant pour le développement système, les logiciels embarqués et les jeux vidéo.
       </p>
     </div>
   </a>
 </div>
+
 
 <div>
   <a
